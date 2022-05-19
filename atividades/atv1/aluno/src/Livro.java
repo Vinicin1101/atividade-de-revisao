@@ -1,0 +1,42 @@
+public class Livro {
+
+    //  Atributos
+    private String titulo, autor;
+    private int ano;
+
+    //  Construtores
+    Livro(){
+
+    }
+
+    Livro(String titulo, String autor, int ano){
+        this.ano = ano;
+        this.autor = autor;
+        this.titulo = titulo;
+    }
+
+    // Getters e Setters
+    public String getTitulo() {
+        return titulo;
+    }
+
+    public void setTitulo(String titulo) {
+        this.titulo = titulo;
+    }
+
+    public String getAutor() {
+        return autor;
+    }
+
+    public void setAutor(String autor) {
+        this.autor = autor;
+    }
+
+    public int getAno() {
+        return ano;
+    }
+
+    public void setAno(int ano) {
+        this.ano = ano;
+    }
+}
